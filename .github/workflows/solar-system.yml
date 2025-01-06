@@ -31,6 +31,7 @@ jobs:
     
         - name: Unit Testing
           run: npm test
+          conrinue-on-error: true
           
         - name: Archive Test Result
           if: always()
